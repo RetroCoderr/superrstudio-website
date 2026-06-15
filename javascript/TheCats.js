@@ -1,6 +1,6 @@
-const cheer = new Audio('/Sounds/fnafCheer.mp3');
-const cry = new Audio('/Sounds/babyCry.wav');
-const catMeow = new Audio('/Sounds/catMeow.wav');
+const cheer = new Audio('Sounds/fnafCheer.mp3');
+const cry = new Audio('Sounds/babyCry.wav');
+const catMeow = new Audio('Sounds/catMeow.wav');
 
 let cat1 = document.getElementById('cat1');
 let cat2 = document.getElementById('cat2');
@@ -31,7 +31,7 @@ window.onload = function() {
 
     if (numCatsFound == 3) {
         textBox.innerText = "Wow, you found Bob's cats! He is happy now.";
-        bob.src = '/Images/HAPPYBOB.png';
+        bob.src = 'Images/HAPPYBOB.png';
         bobIsHappy = true
     }
 };
