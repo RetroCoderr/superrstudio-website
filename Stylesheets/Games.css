@@ -1,0 +1,39 @@
+.gameContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 90%;
+    max-width: 350px;
+    
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+#a1:hover{
+    background-color: rgba(255, 255, 255, 0.096);
+}
+.gameDescription{
+    font-family: "Press Start 2P";
+    font-size: 55%;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    max-width: 350px;
+    white-space: pre-line;
+}
+.gridWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 100px;
+}
+.circleGameLogo{
+    height: auto;
+    width: 90%;
+    aspect-ratio: 1;
+    border-radius: 40%;
+    object-fit: cover;
+}
