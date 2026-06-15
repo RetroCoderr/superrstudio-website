@@ -1,7 +1,7 @@
 // Settings
 let foundCatDataName = 'foundCat1'; // <= Only thing that matters
 let foundCat = document.getElementById("cat");
-const catMeow = new Audio('Sounds/catMeow.wav');
+const catMeow = new Audio('../Sounds/catMeow.wav');
 //
 
 const foundCatData = localStorage.getItem(foundCatDataName);
